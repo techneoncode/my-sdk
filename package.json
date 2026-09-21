@@ -1,0 +1,48 @@
+{
+    "name": "my-sdk",
+    "version": "1.0.0",
+    "description": "TypeScript SDK for interacting with the My API used by Epitech.",
+    "private": true,
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "ttsc",
+        "dev": "ttsx src/main.ts",
+        "typecheck": "ttsc --noEmit",
+        "start": "node dist/main.js",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "dotenv": "^18.0.0",
+        "typia": "^14.0.6"
+    },
+    "devDependencies": {
+        "@types/node": "^22.20.3",
+        "tsx": "^4.23.13",
+        "ttsc": "^0.19.3",
+        "typescript": "^7.0.0"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "prettier": {
+        "semi": true,
+        "trailingComma": "es5",
+        "singleQuote": false,
+        "printWidth": 80,
+        "tabWidth": 4,
+        "useTabs": false,
+        "bracketSpacing": true,
+        "arrowParens": "always"
+    }
+}

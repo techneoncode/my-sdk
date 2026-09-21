@@ -1,0 +1,1 @@
+{"version":3,"file":"user-student-log-time.d.ts","sourceRoot":"","sources":["../../../../src/interfaces/user/student/user-student-log-time.ts"],"names":[],"mappings":"AAAA;;;GAGG;AAEH,MAAM,WAAW,0BAA0B;IACvC,IAAI,EAAE,MAAM,CAAC;IACb,QAAQ,EAAE,MAAM,CAAC;IACjB,cAAc,EAAE,MAAM,CAAC;CAC1B;AAED,MAAM,MAAM,sBAAsB,GAAG,0BAA0B,EAAE,CAAC"}
